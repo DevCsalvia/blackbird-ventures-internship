@@ -4,14 +4,14 @@ const enum EnumTest {
 }
 
 const test = (): string => {
-    const abc = [EnumTest.VALUE1, EnumTest.VALUE2];
-    if (abc[0] === EnumTest.VALUE1) {
-        return "test1";
-    }
-    return "test2";
+  const abc = [EnumTest.VALUE1, EnumTest.VALUE2];
+  if (abc[0] === EnumTest.VALUE1) {
+    return 'test1';
+  }
+  return 'test2';
 };
 
 console.log(test());
 
-export { Component } from "./component/Component";
-export { someFunction } from "./common/someFunction";
+export { Component } from './component/Component';
+export { someFunction } from './common/someFunction';
